@@ -1,6 +1,6 @@
 import React from 'react'
-import Navbar from './components/Navbar'
-import { Route, Router, Routes, useLocation } from 'react-router-dom'
+import Navbar from './components/Navbar';
+import { Route, Router, Routes, useLocation } from 'react-router-dom';
 import Home from './components/Home';
 import Footer from './components/Footer';
 import Allrooms from './components/pages/Allrooms';
@@ -29,7 +29,7 @@ const App = () => {
       <div className='min-h-[70vh]'>
       <Routes>
         
-        <Route path='/' element={<Home/>} />
+        <Route path='/'element={<Home/>} />
         <Route path='/rooms' element={<Allrooms/>} />
         <Route path='/rooms/:id' element={<Roomdetails/>} />
         <Route path='/my-bookings' element={<Mybookings/>} />
@@ -37,11 +37,6 @@ const App = () => {
             <Route index element={<Dashboard/>}/>       
             <Route path="add-room" element={<AddRoommm/>}/>
             <Route path="list-room" element={<Listrooms/>}/>
-            
-            
-            
-            
-
         </Route>
         </Routes>
       </div>
