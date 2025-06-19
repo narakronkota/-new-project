@@ -1,7 +1,7 @@
 import mongoose from "mongoose";
 const conectDB = async ()=>{
     try {
-        mongoose.connection.on('connected' ,()=>console.log("Database connectad"));
+        mongoose.connection.on('connected' ,()=>console.log("Database medtad"));
         await mongoose.connect(`${process.env.MONGODB_URI}/hotel-booking`)
     } catch (error) {
         console.log(error.message);

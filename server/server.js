@@ -2,8 +2,9 @@ import express from "express"
 import "dotenv/config";
 import  cors from "cors";
 import {clerkMiddleware} from '@clerk/express'
-import conectDB from "./configs/db.js";
+
 import clerkWebhooks from "./controller/clerkWebhooks.js";
+import conectDB from "./configs/db.js";
 
 
 conectDB()
@@ -15,10 +16,10 @@ app.use(cors()) // Enable crossorigin resource SHARING
 app.use(express.json())
 app.use(clerkMiddleware())
 ///API to listen
-app.use("/api/clerk" ,clerkWebhooks)
+app.use("/api/clerk" , clerkWebhooks);
 
-app.get('/',(req,res)=>res.send("Api is working fine"))
+app.get('/',(req,res)=>res.send("Api is working "))
 
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 3000;
 
 app.listen(PORT ,()=>console.log(`server running on port ${PORT}`));
