@@ -91,9 +91,9 @@ export const exclusiveOffers = [
 
 // Testimonials Dummy Data
 export const testimonials = [
-    { id: 1, name: "Emma Rodriguez", address: "Barcelona, Spain", image: "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=200", rating: 5, review: "สุด จัดปลัดบอก ปลัดยังบอกว่าสุดจัด, but none compare to the personalized experience and attention to detail that QuickStay provides." },
-    { id: 2, name: "Liam Johnson", address: "New York, USA", image: "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?q=80&w=200", rating: 4, review: " เยส เข้ มันว้าวมาก   and the hotels were absolutely top-notch. Highly recommended!" },
-    { id: 3, name: "Sophia Lee", address: "Seoul, South Korea", image: "https://images.unsplash.com/photo-1701615004837-40d8573b6652?q=80&w=200", rating: 5, review: " ถ้าเศร้าให้กินเหล้า 10 เป็น เเต่ถ้าอยากได้คนตรงสเป็ค ให้กินสเปค10เหล้า I always find the best luxury accommodations through QuickStay. Their recommendations never disappoint!" }
+    { id: 1, name: "Emma Rodriguez", address: "Barcelona, Spain", image: "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=200", rating: 5, review: " but none compare to the personalized experience and attention to detail that QuickStay provides." },
+    { id: 2, name: "Liam Johnson", address: "New York, USA", image: "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?q=80&w=200", rating: 4, review: "    and the hotels were absolutely top-notch. Highly recommended!" },
+    { id: 3, name: "Sophia Lee", address: "Seoul, South Korea", image: "https://images.unsplash.com/photo-1701615004837-40d8573b6652?q=80&w=200", rating: 5, review: "I always find the best luxury accommodations through QuickStay. Their recommendations never disappoint!" }
 ];
 
 // Facility Icon
@@ -131,7 +131,7 @@ export const userDummyData = {
 // Hotel Dummy Data
 export const hotelDummyData = {
     "_id": "67f76393197ac559e4089b72",
-    "name": "  Room colony ",
+    "name": "  Room colony  ",
     "address": "Main Road  123 Street , 23 Colony",
     "contact": "+0123456789",
     "owner": userDummyData,
